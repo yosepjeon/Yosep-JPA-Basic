@@ -13,7 +13,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class OrderItem {
+public class OrderItem extends BaseEntity{
 	@Id
 	@GeneratedValue
 	@Column(name="ORDER_ITEM_ID")

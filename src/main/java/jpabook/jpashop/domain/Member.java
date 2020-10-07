@@ -17,7 +17,7 @@ import lombok.Getter;
 @Getter
 @Setter
 @ToString
-public class Member {
+public class Member extends BaseEntity{
 	@Id
 	@GeneratedValue
 	@Column(name="MEMBER_ID")
